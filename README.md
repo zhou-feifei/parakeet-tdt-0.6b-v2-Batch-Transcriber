@@ -47,10 +47,10 @@ FFmpeg is required for audio file processing.
 
 ### 3. Install PyTorch
 
-Install PyTorch with CUDA support. The command below is for CUDA 12.6. Visit the [PyTorch website](https://pytorch.org/get-started/locally/) to get the correct command for your specific CUDA version.
+Install PyTorch with CUDA support. The command below is for CUDA 12.9. Visit the [PyTorch website](https://pytorch.org/get-started/locally/) to get the correct command for your specific CUDA version.
 
 ```bash
-pip install torch torchvision torchaudio   --index-url https://download.pytorch.org/whl/cu126
+pip install torch torchvision torchaudio   --index-url https://download.pytorch.org/whl/cu129
 ````
 
 ### 4\. Install Required Python Libraries
@@ -58,7 +58,7 @@ pip install torch torchvision torchaudio   --index-url https://download.pytorch.
 Clone or download this repository, navigate to the directory, and install the necessary Python packages.
 
 ```bash
-pip install nemo_toolkit[asr] pydub
+pip install nemo_toolkit[asr]==2.4.0 pydub
 ```
 
 
